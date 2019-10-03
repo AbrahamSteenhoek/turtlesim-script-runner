@@ -27,7 +27,7 @@ int main ( int argc, char** argv )
     while(true)
         pub.publish(forward);
 
-    //ROS_INFO("Shutting down teleop topic");
+    ROS_INFO("Shutting down teleop topic");
     //pub.shutdown();
     spin();
 }
